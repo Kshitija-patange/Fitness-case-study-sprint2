@@ -54,4 +54,11 @@ public class Appointment {
 	@JoinColumn(name = "user_appointment_id")
 	private User user;
 
+	public Appointment(Integer appointment_id) {
+		super();
+		this.appointment_id = appointment_id;
+	}
+
+	
+	
 }
